@@ -1,0 +1,8 @@
+1.1 Iterator模式
+------------------------------
+在JAVA中顯示數組元素時，通常會使用:
+for(int index = 0; index< array.length; index++){
+    sysOut(array[index]);
+}
+而Iterator模式透過next與hasNext將index的作用抽象化，即不需要知道索引是多少，
+只要知道還有沒有下一個元素即可。
